@@ -15,7 +15,11 @@ class App < Sinatra::Base
 
   # Code your final two routes here:
   get '/property/:id' do
-    @property = 
+    @property = all_properties.select do |property|
+      property.id == params[:id]
+    end.
+    #erb :
+  end
     
     
   end
