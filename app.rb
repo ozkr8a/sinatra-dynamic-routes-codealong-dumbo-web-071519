@@ -27,6 +27,7 @@ class App < Sinatra::Base
   end
   
   get '/multiply/:number1/:number2' do
+    @product = 
     #<%number1 * number2%>
   end
 end
