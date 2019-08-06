@@ -14,7 +14,9 @@ class App < Sinatra::Base
   end
 
   # Code your final two routes here:
-  get '/property1' do
+  get '/property/:id' do
+    @property = 
+    
     
   end
   
