@@ -23,6 +23,5 @@ class App < Sinatra::Base
     
   get '/goodbye/:name'
   
-end
-
+  end
 end
