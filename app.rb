@@ -17,19 +17,12 @@ class App < Sinatra::Base
   get '/property/:id' do
     @property = all_properties.select do |property|
       property.id == params[:id]
-    end.
+    end
     #erb :
   end
     
-    
-  end
+  get '/goodbye/:name'
   
-  get 'property2' do
-    
-  end
-  
-  get '/property2356' do 
-    
-  end
+end
 
 end
