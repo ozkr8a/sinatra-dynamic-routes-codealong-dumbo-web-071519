@@ -21,10 +21,11 @@ class App < Sinatra::Base
     #erb :
   end
     
-  get '/goodbye/:name'
+  get '/goodbye/:name' do
     "Goodbye, #{@user_name}."
   end
   
-  get '/multiply/:number1/:number2'
+  get '/multiply/:number1/:number2' do
     <%number1 * number2%>
+  end
 end
