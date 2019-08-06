@@ -22,6 +22,6 @@ class App < Sinatra::Base
   end
     
   get '/goodbye/:name'
-    
+    "Goodbye, #{@user_name}."
   end
 end
