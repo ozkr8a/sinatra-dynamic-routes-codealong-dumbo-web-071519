@@ -14,5 +14,16 @@ class App < Sinatra::Base
   end
 
   # Code your final two routes here:
+  get '/property1' do
+    
+  end
+  
+  get 'property2' do
+    
+  end
+  
+  get '/property2356' do 
+    
+  end
 
 end
